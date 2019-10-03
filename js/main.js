@@ -14,8 +14,7 @@ $('.close-nav').on('click', function(){
 
 // 3. on resizing of the browser, we want to reset any styles set if we are back on desktop). Look into removeAttr to remove the inline styles that's being added to the nav element
 // $(window).on("resize", function(){
-// $(window).on('resize', function(){
-//   $('header nav').attr('class', 'hamburger').removeAttr('style');
-// });
-// });
+$(window).on('resize', function(){
+  // $('header nav').removeAttr('style');
+});
 
